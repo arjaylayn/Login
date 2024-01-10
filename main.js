@@ -20,7 +20,7 @@ botanf.addEventListener('click',(event)=>{
 })
 
 function validarVacioUsuario(valor1, valor2, valor3){
-    const user=/^[A-Za-z]$/;
+    const user=/^[A-Za-z]+$/;
     if(user.test(valor1)==true){
         correcto(valor2, valor3);
     }else{
@@ -29,7 +29,7 @@ function validarVacioUsuario(valor1, valor2, valor3){
 }
 
 function validarVacio1(valor1, valor2, valor3){
-    const contra=/^[A-Za-z]+$/;
+    const contra=/^[A-Za-z]{1,3}$/;
     if(contra.test(valor1)==true && valor1.length <= 3){
         correcto(valor2, valor3);
     }else{
