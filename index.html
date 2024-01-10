@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+  <!-- ------------------ PARTE 1 ------------------ 👍 -->
+  <div class="contenido">
+    <div class="parte1">
+      <h1 class="parte1__titulo">Learn to code by watching others</h1>
+      <p class="parte1__parrafo">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable.</p>
+    </div>
+    <!-- ------------------ PARTE 2 ------------------ 👍 -->
+    <div class="parte2">
+       <!-- GRATIS 👍 -->
+      
+      <div class="parte2__gratis">
+        <p class="parte2__gratis__parrafo"><b>Try it free 7 days</b> then $20/mo. thereafter</p>
+      </div>
+    
+    
+       <!-- FORMULARIO 👍 -->
+      <div class="parte2__registro">
+
+        
+        <form class="formulario">
+  
+          <input type="text" class="caja1" name="nombre" placeholder="First Name" required> 
+          <div class="error1">
+            <i class="error-usuario1">First Name cannot be empty</i
+            <img src="images/icon-error.svg" class="icono_error1">
+          </div>
+          
+   
+
+          <input type="text" class="caja2" name="apellido" placeholder="Numbers" required>
+          <div class="error2">
+            <i class="error-usuario2">Numbers cannot be empty</i>
+            <img src="images/icon-error.svg" class="icono_error2">
+          </div>
+  
+
+          <input type="email" class="caja3" name="email" placeholder="Email Address" required>
+          <div class="error3">
+            <i class="error-usuario3">Looks like this is not an email</i>
+            <img src="images/icon-error.svg" class="icono_error3">
+          </div>
+    
+
+          <input type="password" class="caja4" name="contrasena" placeholder="Password" required>
+          <div class="error4">
+            <i class="error-usuario4">Password cannot be empty</i>
+            <img src="images/icon-error.svg" class="icono_error4">
+          </div>
+
+
+          <input class="boton" type="submit" value="CLAIM YOUR TRIAL"></input >
+
+          <p class="parte2__terminos">By clicking the button, you are agreeing to our <span class="parte2__terminos_rojo">Terms and Services</span></p>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/arjaylayn">Arjay Escajadillo</a>
+    </p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
