@@ -14,10 +14,9 @@ botanf.addEventListener('click',(event)=>{
     event.preventDefault();
 
     validarVacioUsuario(caja1.value, caja1, error1);
-    validarVacio1(caja4.value, caja4, error4);
     validarVacioNum(caja2.value, caja2, error2);
     validarVacioEmail(caja3.value, caja3, error3);
-
+    validarVacio1(caja4.value, caja4, error4);
 })
 
 function validarVacioUsuario(valor1, valor2, valor3){
